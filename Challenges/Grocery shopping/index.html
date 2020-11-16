@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shop</title>
+    <link rel="stylesheet" href="./grocery.css">
+</head>
+<body>
+    <div class="main-container">
+        <div>
+            <h1>Grocery Shoping</h1>
+        </div>
+        <div style="background-color: #ffffffe3; height: 500px;">
+        <div class="left-container">
+            <a id="list" href="#" onclick="return loadList('All')">List All</a><br>
+            <a id="list" href="#" onclick="return loadList('Fruits')">Fruits</a><br>
+            <a id="list" href="#" onclick="return loadList('Vegitables')">Vegitables</a><br>
+            <a id="list" href="#" onclick="return loadList('Others')">Others</a><br>
+        </div>
+        <div class="right-container">
+            <table class="ftable">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Price/unit</th>
+                    </tr>
+                </thead>
+                <tbody id=tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <!-- <div class="right-container">
+            <table class="ftable">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody id=tbodybill>
+
+                </tbody>
+            </table>
+        </div> -->
+        </div>
+    </div>
+    <script src="./ajax.js"></script>
+</body>
+</html>

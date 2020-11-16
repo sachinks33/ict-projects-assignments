@@ -1,0 +1,52 @@
+*{
+    font-family: system-ui;
+}
+body{
+    background-color: #ffffff36;
+    padding: 0px;
+    margin: 0px;
+    background-image: url(./grocery-bg.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+}
+h1
+{
+    text-align: center;
+    color: #2dc12d;   
+    
+}
+.main-container{
+    align-content: center;
+    margin: 0px 15%;
+    background-color:#ffffffe3;
+}
+.left-container{
+    float: left;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.right-container{
+    float: left;
+    position: relative;
+    margin: 0px;
+    padding: 0px 10px;
+}
+.left-container a{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    width: 130px;
+  }

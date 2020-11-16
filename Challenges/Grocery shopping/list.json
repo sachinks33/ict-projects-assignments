@@ -1,0 +1,60 @@
+{
+    "Grocery":[
+        {
+            "name":"Apple",
+            "price":130,
+            "unit":"Kg",
+            "category":"Fruits"
+        },
+        {
+            "name":"Orange",
+            "price":90,
+            "unit":"Kg",
+            "category":"Fruits"
+        },
+        {
+            "name":"Grape",
+            "price":80,
+            "unit":"Kg",
+            "category":"Fruits"
+        },
+        {
+            "name":"Beetroot",
+            "price":40,
+            "unit":"Kg",
+            "category":"Vegitables"
+        },
+        {
+            "name":"Cabbage",
+            "price":45,
+            "unit":"Kg",
+            "category":"Vegitables"
+        },
+        {
+            "name":"Capsicum",
+            "price":30,
+            "unit":"Kg",
+            "category":"Vegitables"
+        },
+        {
+            "name":"Coconut oil",
+            "price":230,
+            "unit":"Ltr",
+            "category":"Others"
+        },
+        {
+            "name":"Egg",
+            "price":6,
+            "unit":"Piece",
+            "category":"Others"
+        },
+        {
+            "name":"Sugar",
+            "price":44,
+            "unit":"Kg",
+            "category":"Others"
+        }
+
+    ]
+    
+}
