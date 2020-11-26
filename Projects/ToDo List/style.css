@@ -1,0 +1,96 @@
+.base-space
+{
+    padding: 10px;
+}
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+.navbar-nav{
+    flex-direction: row;
+}
+
+.navbar-inverse {
+    background-color: #fff;
+    border-bottom: solid #40693d;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+a{
+    padding: 17px;
+    color:#40693d;
+}
+a:hover{
+    text-decoration: none;
+}
+.navbar-inverse .navbar-brand {
+    color:#40693d;
+}
+.navbar-inverse .navbar-brand:hover{
+    color:#40693d;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    color: rgb(255, 255, 255);
+    background-color:#40693d;
+    padding: 17px;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:#40693d;
+    background-color: transparent;
+}
+input{
+    margin: 20px 0px;
+}
+p{
+    margin-bottom: 0px;
+}
+body{
+    background-color: #e4e4e4;
+    margin: 0px;
+}
+.bg{
+    background-color: white;
+}
+.ht{
+    min-height: 100%;
+}
+.row-space{
+    padding: 60px 0px;
+}
+.list{
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+}
+.icon
+{
+    height: 14px;
+}
+input {
+    margin: 0px 0px;
+}
+.form-control {
+    margin: 20px 0px;
+}
+#listTitle{
+    color: gray;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+#delete{
+    color:#cecece;
+}
+#delete:hover
+{
+    color: red;
+    transition: 0.3s;
+}
+.pin{
+    color:#cecece;
+}
+.pin:hover{
+    color: #86d481;
+    transition: 0.3s;
+}
