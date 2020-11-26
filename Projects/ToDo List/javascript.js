@@ -7,7 +7,7 @@ function loadData()
     if (this.readyState == 4 && this.status == 200) {
       let data=JSON.parse(xhttp.response);
       
-      for(var i=0; i<7; i++)
+      for(var i=0; i<data.length; i++)
       {
         // listing.innerHTML +="<div class='row list'><div class='col-1'><input id=list"+i+" type='checkbox' onclick='selectCheck(list"+i+")'></div><div class='col-10'><p>"+data[i].title+"</p></div><div class='col-1'><i class='fas fa-thumbtack' id=pinlist"+i+" onclick='selectPin(pinlist"+i+")' style='color:#cecece'></i></div></div>"
         listing.innerHTML +=`<div class='row list'><div class='col-1'><input id=list-${i} type=checkbox onclick=selectPin('list-${i}') status=false></div><div class=col-10><p id=listdata-${i}>${data[i].title}</p></div><div class=col-1><i class='fas fa-thumbtack pin' id=pinlist-${i} onclick=selectPin('pinlist-${i}') title='Pin to List'></i></div></div>`
